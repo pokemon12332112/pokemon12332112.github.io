@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="SemLT3D publication illustration">
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#e8eef8"/><stop offset="1" stop-color="#d9e8e1"/></linearGradient></defs>
+  <rect width="800" height="500" rx="28" fill="url(#g)"/><path d="M100 330L250 155l150 175 150-175 150 175" fill="none" stroke="#315c78" stroke-width="18" stroke-linejoin="round" opacity=".25"/>
+  <g fill="#fff" stroke="#315c78" stroke-width="5"><circle cx="250" cy="155" r="54"/><circle cx="400" cy="330" r="54"/><circle cx="550" cy="155" r="54"/></g>
+  <g font-family="Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#315c78"><text x="250" y="164">HEAD</text><text x="400" y="339">TAIL</text><text x="550" y="164">SEM</text></g>
+  <text x="400" y="425" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="#171713">SemLT3D</text><text x="400" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#575f65">Semantic-guided long-tailed 3D detection</text>
+</svg>

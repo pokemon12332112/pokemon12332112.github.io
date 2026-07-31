@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6f4ee"/>
+  <circle cx="1040" cy="100" r="310" fill="#dce9df"/>
+  <circle cx="1070" cy="570" r="250" fill="#e6d6c3" opacity=".7"/>
+  <text x="86" y="220" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#276749" letter-spacing="5">COMPUTER VISION · MULTIMODAL AI</text>
+  <text x="80" y="355" font-family="Georgia,serif" font-size="88" fill="#171713">YOUR NAME</text>
+  <text x="84" y="425" font-family="Arial,sans-serif" font-size="30" fill="#65645d">Trustworthy AI · Medical AI · Multimodal Intelligence</text>
+  <path d="M84 486h300" stroke="#276749" stroke-width="8"/>
+</svg>

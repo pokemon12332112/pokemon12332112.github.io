@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <meta name="description" content="YOUR NAME — graduate researcher working on computer vision, multimodal learning, medical AI, and trustworthy artificial intelligence.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="YOUR NAME">
+  <meta property="og:description" content="Graduate researcher in computer vision and multimodal AI at the University of Arkansas.">
+  <meta property="og:image" content="assets/social-card.svg">
+  <meta property="og:url" content="https://YOUR_GITHUB_USERNAME.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://YOUR_GITHUB_USERNAME.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>YOUR NAME</title>
+  <script>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = saved || (systemDark ? 'dark' : 'light');
+    }());
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span id="nav-name">YOUR NAME</span>
+      </a>
+
+      <button class="menu-button" id="menu-button" type="button" aria-controls="site-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
+        <a href="#awards">Awards</a>
+        <a class="cv-nav" id="cv-nav" href="#" hidden>CV</a>
+        <button class="theme-button" id="theme-button" type="button" aria-label="Switch color theme">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-label="Introduction">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" id="hero-eyebrow">Computer Vision · Multimodal AI</p>
+        <p class="hero-intro" id="hero-intro"></p>
+        <div class="hero-actions" id="hero-actions"></div>
+      </div>
+
+      <figure class="portrait-wrap reveal reveal-delay">
+        <div class="portrait-halo" aria-hidden="true"></div>
+        <img class="portrait" id="portrait" src="assets/profile-placeholder.svg" alt="Portrait of YOUR NAME" width="520" height="620">
+        <figcaption class="portrait-caption">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="portrait-caption">Open to research collaborations</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section shell" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="section-index">01</p>
+        <h2 id="about-title">About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal" id="about-copy"></div>
+        <aside class="news-panel reveal reveal-delay" aria-labelledby="news-title">
+          <div class="panel-heading">
+            <h3 id="news-title">News</h3>
+            <span>Recent</span>
+          </div>
+          <ol class="timeline" id="news-list"></ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section shell" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading reveal">
+        <p class="section-index">02</p>
+        <div>
+          <h2 id="publications-title">Selected publications</h2>
+          <p class="section-note">Published and accepted work.</p>
+        </div>
+      </div>
+      <div class="publication-list" id="publication-list"></div>
+    </section>
+
+    <section class="section shell" id="research" aria-labelledby="research-title">
+      <div class="section-heading reveal">
+        <p class="section-index">03</p>
+        <h2 id="research-title">Research directions</h2>
+      </div>
+      <div class="research-grid" id="research-grid"></div>
+    </section>
+
+    <section class="section shell" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal">
+        <p class="section-index">04</p>
+        <h2 id="experience-title">Experience & education</h2>
+      </div>
+      <div class="experience-list" id="experience-list"></div>
+    </section>
+
+    <section class="section shell" id="awards" aria-labelledby="awards-title">
+      <div class="section-heading reveal">
+        <p class="section-index">05</p>
+        <h2 id="awards-title">Awards</h2>
+      </div>
+      <div class="award-list" id="award-list"></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner reveal">
+        <p class="eyebrow">Let’s connect</p>
+        <h2 id="contact-title">Open to research collaborations and conversations.</h2>
+        <p id="contact-text"></p>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>© <span id="current-year"></span> <span id="footer-name">YOUR NAME</span>.</p>
+      <p>Designed and built for GitHub Pages.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript">This website needs JavaScript enabled to display its content.</div>
+  </noscript>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

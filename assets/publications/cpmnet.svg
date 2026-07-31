@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="CPMNet publication illustration">
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#edf4ef"/><stop offset="1" stop-color="#e8ddd0"/></linearGradient></defs><rect width="800" height="500" rx="28" fill="url(#g)"/>
+  <g fill="#5d9170" opacity=".35"><circle cx="165" cy="160" r="70"/><circle cx="290" cy="265" r="58"/><circle cx="170" cy="325" r="45"/></g><g fill="#8b6543"><circle cx="560" cy="150" r="13"/><circle cx="650" cy="240" r="13"/><circle cx="540" cy="320" r="13"/></g>
+  <path d="M330 245H480" stroke="#276749" stroke-width="8"/><path d="M455 220l30 25-30 25" fill="none" stroke="#276749" stroke-width="8"/>
+  <text x="400" y="425" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="#171713">CPMNet</text><text x="400" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#65645d">Contrastive point matching for object counting</text>
+</svg>

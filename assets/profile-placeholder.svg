@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">A neutral placeholder to replace with your portrait.</desc>
+  <rect width="520" height="620" rx="34" fill="#e5e1d7"/>
+  <circle cx="260" cy="220" r="108" fill="#b9cbbd"/>
+  <path d="M84 570c13-139 86-216 176-216s163 77 176 216" fill="#9bb2a1"/>
+  <text x="260" y="590" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#4e5950">ADD assets/profile.jpg</text>
+</svg>
