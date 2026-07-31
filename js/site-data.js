@@ -62,17 +62,6 @@ window.SITE_DATA = {
 
   publications: [
     {
-      title: "SemLT3D: Semantic-Guided Expert Distillation for Camera-only Long-Tailed 3D Object Detection",
-      authors: "Hao Vo, Khoa Vo, Thinh Phan, Ngo Xuan Cuong, Gianfranco Doretto, Hien Nguyen, Anh Nguyen, Ngan Le",
-      venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-      badge: "CVPR 2026",
-      year: "2026",
-      image: "assets/publications/semlt3d.svg",
-      links: [
-        { label: "Paper", url: "https://openaccess.thecvf.com/content/CVPR2026/papers/Vo_SemLT3D_Semantic-Guided_Expert_Distillation_for_Camera-only_Long-Tailed_3D_Object_Detection_CVPR_2026_paper.pdf" }
-      ]
-    },
-    {
       title: "DualCount: Structurally Consistent Density and Point Modeling for Zero-Shot Object Counting",
       authors: "Ngo Xuan Cuong",
       venue: "European Conference on Computer Vision (ECCV)",
@@ -83,6 +72,17 @@ window.SITE_DATA = {
         { label: "Paper", url: "", pending: true },
         { label: "Code", url: "", pending: true },
         { label: "Project", url: "", pending: true }
+      ]
+    },
+    {
+      title: "SemLT3D: Semantic-Guided Expert Distillation for Camera-only Long-Tailed 3D Object Detection",
+      authors: "Hao Vo, Khoa Vo, Thinh Phan, Ngo Xuan Cuong, Gianfranco Doretto, Hien Nguyen, Anh Nguyen, Ngan Le",
+      venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      badge: "CVPR 2026",
+      year: "2026",
+      image: "assets/publications/semlt3d.svg",
+      links: [
+        { label: "Paper", url: "https://openaccess.thecvf.com/content/CVPR2026/papers/Vo_SemLT3D_Semantic-Guided_Expert_Distillation_for_Camera-only_Long-Tailed_3D_Object_Detection_CVPR_2026_paper.pdf" }
       ]
     },
     {
