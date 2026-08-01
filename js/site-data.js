@@ -24,7 +24,7 @@ window.SITE_DATA = {
   },
 
   // Add your portrait as assets/profile.jpg, then change this value.
-  photo: "assets/profile-placeholder.svg",
+  photo: "assets/profile_1.jpg",
   photoFallback: "assets/profile-placeholder.svg",
 
   links: {
@@ -67,7 +67,7 @@ window.SITE_DATA = {
       venue: "European Conference on Computer Vision (ECCV)",
       badge: "ECCV 2026",
       year: "2026",
-      image: "assets/publications/dualcount.svg",
+      image: "assets/publications/dualcount.png",
       links: [
         { label: "Paper", url: "", pending: true },
         { label: "Code", url: "", pending: true },
@@ -80,7 +80,7 @@ window.SITE_DATA = {
       venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       badge: "CVPR 2026",
       year: "2026",
-      image: "assets/publications/semlt3d.svg",
+      image: "assets/publications/semlt3d.png",
       links: [
         { label: "Paper", url: "https://openaccess.thecvf.com/content/CVPR2026/papers/Vo_SemLT3D_Semantic-Guided_Expert_Distillation_for_Camera-only_Long-Tailed_3D_Object_Detection_CVPR_2026_paper.pdf" }
       ]
@@ -91,7 +91,7 @@ window.SITE_DATA = {
       venue: "British Machine Vision Conference (BMVC)",
       badge: "BMVC 2025",
       year: "2025",
-      image: "assets/publications/cpmnet.svg",
+      image: "assets/publications/cpmnet.png",
       links: [
         { label: "Paper", url: "https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_1183/paper.pdf" }
       ]
@@ -102,7 +102,7 @@ window.SITE_DATA = {
       venue: "International Symposium on Information and Communication Technology (SOICT)",
       badge: "SOICT 2024",
       year: "2025",
-      image: "assets/publications/opticount.svg",
+      image: "assets/publications/opticount.png",
       links: [
         { label: "Paper", url: "https://link.springer.com/chapter/10.1007/978-981-96-4282-3_15" },
         { label: "DOI", url: "https://doi.org/10.1007/978-981-96-4282-3_15" }
