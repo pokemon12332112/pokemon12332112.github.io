@@ -97,14 +97,14 @@ button { font: inherit; }
 :root[data-theme="dark"] .button-primary { color: #10140f; }
 
 .portrait-wrap { position: relative; margin: 0; }
-.portrait-halo { position: absolute; width: 96%; aspect-ratio: 1; top: 8%; left: 2%; border-radius: 50%; background: var(--accent-soft); filter: blur(1px); }
+.portrait-halo { position: absolute; inset: 16px -14px -14px 16px; border-radius: 24px; background: var(--accent-soft); filter: blur(1px); }
 .portrait {
   position: relative;
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   object-position: center;
-  border-radius: 48% 48% 22px 22px;
+  border-radius: 24px;
   box-shadow: var(--shadow);
   filter: saturate(.87) contrast(1.03);
 }
