@@ -31,7 +31,7 @@ window.SITE_DATA = {
     github: "https://github.com/pokemon12332112",
     linkedin: "",
     scholar: "",
-    cv: "",
+    cv: "assets/Cuong_s_Resume.pdf",
     email: "ngoquy12332115@gmail.com"
   },
 
