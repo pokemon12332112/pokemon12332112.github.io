@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">SCOPE workshop paper illustration</title>
+  <desc id="desc">Abstract chest radiograph with highlighted anatomical regions and aligned feature patches.</desc>
+  <rect width="800" height="500" fill="#e8eee9"/>
+  <rect x="74" y="54" width="300" height="392" rx="24" fill="#213a31"/>
+  <path d="M224 110v70M224 180c-38-44-104-30-108 70-5 117 70 139 108 103M224 180c38-44 104-30 108 70 5 117-70 139-108 103" fill="none" stroke="#dce9df" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="174" cy="262" r="28" fill="#d88745" opacity=".9"/>
+  <g fill="#276749"><rect x="450" y="94" width="98" height="98" rx="16"/><rect x="574" y="94" width="98" height="98" rx="16" opacity=".72"/><rect x="450" y="218" width="98" height="98" rx="16" opacity=".55"/><rect x="574" y="218" width="98" height="98" rx="16" opacity=".35"/></g>
+  <path d="M374 263h58M414 247l18 16-18 16" fill="none" stroke="#bc6c25" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="450" y="352" width="222" height="18" rx="9" fill="#719782"/><rect x="450" y="386" width="154" height="12" rx="6" fill="#9bb4a5"/>
+</svg>

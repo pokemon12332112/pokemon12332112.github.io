@@ -65,7 +65,6 @@
 
     const heroButtons = [
       button('View publications', '#publications', true),
-      button('GitHub', data.links.github),
       button('Google Scholar', data.links.scholar),
       button('CV', data.links.cv)
     ].join('');

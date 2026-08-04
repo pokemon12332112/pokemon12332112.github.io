@@ -18,8 +18,8 @@ window.SITE_DATA = {
   location: "Fayetteville, Arkansas",
 
   hero: {
-    eyebrow: "Computer Vision · Multimodal AI",
-    intro: "I am an M.S. student and Graduate Research Assistant at the University of Arkansas. My research focuses on computer vision, multimodal learning, trustworthy AI, and medical artificial intelligence.",
+    eyebrow: "About me",
+    intro: "I am an M.S. student and Graduate Research Assistant at the University of Arkansas, studying vision-language models, post-training adaptation, and uncertainty quantification for reliable embodied AI.",
     status: "Open to research collaborations"
   },
 
@@ -29,16 +29,16 @@ window.SITE_DATA = {
 
   links: {
     github: "https://github.com/pokemon12332112",
-    linkedin: "",
-    scholar: "",
+    linkedin: "https://www.linkedin.com/in/xuan-cuong-ngo-8b15b3364/",
+    scholar: "https://scholar.google.com/citations?user=qdDONQQAAAAJ&hl=en",
     cv: "assets/Cuong_s_Resume.pdf",
     email: "ngoquy12332115@gmail.com"
   },
 
   about: [
-    "I am an <strong>M.S. student in Computer Science</strong> and a Graduate Research Assistant at the <strong>University of Arkansas</strong>.",
-    "My research lies at the intersection of <strong>computer vision, multimodal learning, medical AI, and trustworthy machine learning</strong>. I am interested in building models that reason over visual, linguistic, spatial, and temporal evidence while remaining reliable and calibrated.",
-    "Current directions include vision-language models, uncertainty quantification, personalized streaming video understanding, medical image analysis, and controllable model behavior."
+    "I am an <strong>M.S. student in Computer Science</strong> at the <strong>University of Arkansas</strong>, where I work as a Graduate Research Assistant with Prof. Ngan Le. I expect to graduate in May 2027.",
+    "My research focuses on <strong>vision-language models</strong>, especially understanding and shaping their internal representations through post-training methods such as activation steering.",
+    "I am also interested in <strong>uncertainty quantification</strong>, including conformal prediction and Laplace approximation, for reliable VLA models and robotics."
   ],
 
   news: [
@@ -49,6 +49,10 @@ window.SITE_DATA = {
     {
       date: "2026",
       text: "Our paper <em>SemLT3D: Semantic-Guided Expert Distillation for Camera-only Long-Tailed 3D Object Detection</em> has been accepted to CVPR 2026."
+    },
+    {
+      date: "2026",
+      text: "Our paper <em>SCOPE: Self-Consistent Patch Reconstruction with Pathology-Aware Prototype Alignment for Anatomical Neglect in CXR Report Generation</em> has been accepted to the CVPR 2026 MMFM-BIOMED Workshop."
     },
     {
       date: "2025",
@@ -97,7 +101,18 @@ window.SITE_DATA = {
       ]
     },
     {
-      title: "Distribution-Guided Object Counting with Optimal Transport and DINO-Based Density Refinement",
+      title: "SCOPE: Self-Consistent Patch Reconstruction with Pathology-Aware Prototype Alignment for Anatomical Neglect in CXR Report Generation",
+      authors: "Ngo Xuan Cuong",
+      venue: "MMFM-BIOMED Workshop at CVPR",
+      badge: "CVPRW 2026",
+      year: "2026",
+      image: "assets/publications/scope.png",
+      links: [
+        { label: "Paper", url: "", pending: true }
+      ]
+    },
+    {
+      title: "Distribution-Guided Object Counting with Optimal Transport",
       authors: "Ngo Xuan Cuong, Tien-Dung Mai",
       venue: "International Symposium on Information and Communication Technology (SOICT)",
       badge: "SOICT 2024",
@@ -114,33 +129,82 @@ window.SITE_DATA = {
 
   research: [
     {
-      title: "Multimodal intelligence",
-      description: "Vision-language and video-audio systems that integrate heterogeneous evidence for grounded reasoning."
+      title: "Vision-language models",
+      description: "Understanding and shaping internal representations through post-training adaptation methods such as activation steering."
     },
     {
-      title: "Trustworthy AI",
-      description: "Uncertainty estimation, calibration, controllable behavior, and reliable representation learning."
+      title: "Uncertainty quantification",
+      description: "Conformal prediction, Laplace approximation, and calibration methods for dependable multimodal models."
     },
     {
-      title: "Medical artificial intelligence",
-      description: "Clinically meaningful image understanding, report generation, segmentation, and multimodal learning."
+      title: "Reliable embodied AI",
+      description: "Robust vision-language-action models for robotics, autonomous systems, and grounded decision-making."
     }
   ],
 
   experience: [
     {
-      period: "Present",
+      period: "Aug. 2025 – Present",
       title: "Graduate Research Assistant",
-      subtitle: "M.S. in Computer Science",
-      place: "University of Arkansas",
-      description: "Research in computer vision, multimodal learning, medical AI, and trustworthy machine learning."
+      subtitle: "Advisor: Prof. Ngan Le",
+      place: "University of Arkansas · Fayetteville, AR",
+      description: "Research on vision-language models, uncertainty quantification, and robotics."
+    },
+    {
+      period: "Aug. 2025 – May 2027",
+      title: "M.S. in Computer Science",
+      subtitle: "GPA: 4.0 · Expected May 2027",
+      place: "University of Arkansas · Fayetteville, AR",
+      description: "Graduate study in computer science and artificial intelligence."
+    },
+    {
+      period: "May 2025 – Aug. 2025",
+      title: "AI Engineer Intern",
+      subtitle: "Viettel Group",
+      place: "Ho Chi Minh City, Vietnam",
+      description: "Worked on 3D reconstruction for virtual reality and video retrieval for television services."
+    },
+    {
+      period: "Aug. 2023 – May 2025",
+      title: "Undergraduate Research Assistant",
+      subtitle: "Advisor: Dr. Tien Dung Mai",
+      place: "University of Information Technology, VNU-HCM",
+      description: "Research on vision-language models and optimal transport."
+    },
+    {
+      period: "Jul. 2024 – Jan. 2025",
+      title: "AI Engineer Intern",
+      subtitle: "Bosch Global Software Technologies",
+      place: "Ho Chi Minh City, Vietnam",
+      description: "Developed LLM agents and vision-language-action models for robotic-arm-based automated product testing."
+    },
+    {
+      period: "Sep. 2021 – May 2025",
+      title: "B.S. in Computer Science",
+      subtitle: "University of Information Technology, VNU-HCM",
+      place: "Ho Chi Minh City, Vietnam",
+      description: "Completed undergraduate study in computer science."
     }
   ],
 
-  // Leave this empty until you want to add awards.
-  awards: [],
+  awards: [
+    {
+      year: "2026",
+      title: "Broadening Participation Scholarship",
+      organization: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      description: "Awarded in support of participation at CVPR 2026.",
+      icon: "✦"
+    },
+    {
+      year: "2021 – 2025",
+      title: "Excellent Academic Scholarship",
+      organization: "University of Information Technology, VNU-HCM",
+      description: "Four-time recipient for academic excellence.",
+      icon: "✦"
+    }
+  ],
 
   contact: {
-    text: "I am happy to discuss research ideas, potential collaborations, and opportunities in computer vision and multimodal AI."
+    text: "I am happy to discuss research ideas and collaborations in vision-language models, uncertainty quantification, robotics, and trustworthy AI."
   }
 };
