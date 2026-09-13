@@ -73,9 +73,8 @@ window.SITE_DATA = {
       year: "2026",
       image: "assets/publications/dualcount.png",
       links: [
-        { label: "Paper", url: "", pending: true },
-        { label: "Code", url: "", pending: true },
-        { label: "Project", url: "", pending: true }
+        { label: "Paper", url: "https://link.springer.com/chapter/10.1007/978-3-032-37335-9_6" },
+        { label: "Code", url: "https://github.com/pokemon12332112/DualCount" }
       ]
     },
     {
